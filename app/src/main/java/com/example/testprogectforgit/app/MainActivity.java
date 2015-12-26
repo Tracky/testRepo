@@ -13,7 +13,9 @@ private TextView textView;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textView= (TextView) findViewById(R.id.textView);    }
+        textView= (TextView) findViewById(R.id.textView);
+    textView.setText("22");
+    }
 
 
     @Override
