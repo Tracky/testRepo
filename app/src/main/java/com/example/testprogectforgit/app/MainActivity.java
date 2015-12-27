@@ -16,7 +16,7 @@ private TextView textView;
         textView= (TextView) findViewById(R.id.textView);
     textView.setText("22");
         textView.setText("Hello world");
-        textView.setText("Goodbuy world");
+     
     }
 
 
