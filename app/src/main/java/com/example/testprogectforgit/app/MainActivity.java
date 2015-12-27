@@ -15,6 +15,7 @@ private TextView textView;
         setContentView(R.layout.activity_main);
         textView= (TextView) findViewById(R.id.textView);
     textView.setText("22");
+        textView.setSelected(true);
     }
 
 
